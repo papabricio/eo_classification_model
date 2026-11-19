@@ -1,0 +1,7 @@
+# Ignore the outputs folder in the project root
+/outputs/
+
+# Ignore suffixed classification model files (e.g. classification_model-20261119-150548.egomlx)
+# "?*" requires at least one character after "classification_model", so the plain
+# classification_model.egomlx is NOT ignored.
+classification_model?*.egomlx

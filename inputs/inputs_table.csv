@@ -1,0 +1,6 @@
+Name*,Type,Value,
+"Area of Interest",str,"./inputs/area_of_interest/careacu_vetor.shp",
+"Ground Truth Data",str,"./inputs/ground_truth_data.gpkg",
+"StartDate",str,"2025-06-01",
+"EndDate",str,"2025-07-01",
+"MaxCloudCover",int,5,
