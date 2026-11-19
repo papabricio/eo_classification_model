@@ -41,7 +41,8 @@ The `inputs/` folder comes with the repository. You don't need to create anythin
 |---|---|
 | `Area of Interest` | Vector file with the area boundary used to search for the Sentinel‑2 scene. |
 | `Ground Truth Data` | Polygon vector file with the labelled samples, in a `class` column (1 = water, 2 = vegetation, 3 = anthropic use). |
-| `StartDate` / `EndDate` | Search period, as `yyyy-mm-dd`. |
+| `StartDate`  | STAC search period start date, as `yyyy-mm-dd`. |
+| `EndDate`  | STAC search period end date, as `yyyy-mm-dd`. |
 | `MaxCloudCover` | Highest scene cloud cover allowed, in percent. |
 
 To run the model for another area or period, edit the `Value` column of this file. Keep the `Parameter` and `Type` columns as they are.
